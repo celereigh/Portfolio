@@ -50,10 +50,11 @@ a:hover{
 .grid-container{
     height: 100vh;
     display: grid;
-    /* grid-template-rows: 30% 70%; */
     grid-template-columns: 23% 77%;
     padding-left: 10px;
     padding-right: 15px;
+    background-color: rgb(240, 240, 240);
+
 }
 
 .contact-info{
@@ -95,11 +96,13 @@ a:hover{
     padding-right: 12px;
     padding-left: 12px;
     padding-bottom: 30px;
+    padding-top: 13px;
 }
 .projects{
     padding-right: 12px;
     padding-left: 12px;
     padding-bottom: 30px;
+    padding-top: 12px;
     border-top: 2px dotted black;
 }
 
@@ -119,28 +122,28 @@ a:hover{
     display: grid;
     grid-template-columns: 25.5% 25.5% 49%;
    
-    padding-top: 5px;      
+    padding-top: 16px;    
+    padding-bottom: 30px;      
+  
 }
 
 
 
+/* Slideshow -------------------------------------------------------------------- */
 
-
-
-.mySlides1, .mySlides2 {
+.mySlides1, .mySlides2, .mySlides3 {
     display: none;
 }
 img {
     vertical-align: middle;
 }
 
-/* Slideshow container */
+/* Slideshow container-------------------------------------------------------------------- */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
 
 .slideshowcontainer-container {
     display: grid;
@@ -148,30 +151,29 @@ img {
     grid-gap: 12px;
 }
 
-/* Next & previous buttons */
+/* Next & previous buttons ------------------------------------------------------ */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 97%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 2px 2px 0;
   user-select: none;
 }
+
+.prev:hover, .next:hover{
+    color: hotpink;
+    text-decoration: none;
+}
+
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 2px 0 0 2px;
+  border-radius: 1px 0 0 1px;
 }
 
-/* On hover, add a grey background color */
-.prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
-}
