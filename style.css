@@ -95,13 +95,13 @@ a:hover{
 .top-project{
     padding-right: 12px;
     padding-left: 12px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     padding-top: 13px;
 }
 .projects{
     padding-right: 12px;
     padding-left: 12px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     padding-top: 12px;
     border-top: 2px dotted black;
 }
